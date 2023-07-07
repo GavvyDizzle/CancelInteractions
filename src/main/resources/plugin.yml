@@ -1,0 +1,10 @@
+name: CancelInteractions
+version: '${project.version}'
+main: com.github.gavvydizzle.cancelinteractions.CancelInteractions
+api-version: '1.20'
+depend: [ServerUtils]
+authors: [GavvyDizzle]
+commands:
+  cancelinteractions:
+    description: CancelInteractions admin commands
+    permission: cancelinteractions.admin
